@@ -1,0 +1,60 @@
+@import "./breakpoints.scss";
+@import "./mixins.scss";
+@import "./variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  @include md {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  @include xl {
+    min-width: 900px;
+    max-width: 1080px;
+  }
+  .lastname {
+    color: #4EE1A0;
+  }
+  .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    // letter-spacing: -0.333333px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+    @include md {
+      margin-bottom: 0;
+    }
+  }
+  .icons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    .icon {
+      transition: all 0.1s linear;
+      border-radius: 18px;
+      @include xl {
+        font-size: 2.5rem
+      }
+      &:hover {
+        color: $almostwhite;
+        scale: 1.15;
+        box-shadow: rgba(78, 225, 160, 0.4) -5px 5px, rgba(78, 225, 160, 0.3) -10px 10px, rgba(78, 225, 160, 0.2) -15px 15px, rgba(78, 225, 160, 0.1) -20px 20px, rgba(78, 225, 160, 0.05) -25px 25px;
+      }
+    }
+    @include md {
+      width: 190px;
+    }
+    @include xl {
+      width: 320px;
+    }
+    }
+  }
+
+ 
