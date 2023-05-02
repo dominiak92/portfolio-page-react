@@ -26,6 +26,10 @@
     @include xl {
       flex-direction: row;
       justify-content: space-around;
+      background-image: url(../assets/images/pattern-rings.svg),
+      url(../assets/images/pattern-rings.svg);
+    background-position: 140% 5%, -30% 100%;
+    background-size: 40%, 60%;
     }
     .header {
       display: flex;
