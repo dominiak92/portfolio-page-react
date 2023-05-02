@@ -1,7 +1,7 @@
 {
   "name": "portfolio-page-react",
   "version": "0.1.0",
-  "homepage": "https://dominiak92.github.io/portfolio-page-react",
+  "homepage": "https://sebastiandominiak.pl",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
