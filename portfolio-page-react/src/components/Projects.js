@@ -81,6 +81,37 @@ const Projects = () => {
             <div className={styles.card}>
               <div className={styles.imagecontent}>
                 <img
+                  src={require(`../assets/gallery/projects/devjobs-preview.jpg`)}
+                  alt="photo1"
+                  className={styles.img}
+                />
+              </div>
+              <div className={styles.cardContent}>
+                <p className={styles.description}>
+                  The application is created in React using Redux Toolkit, the data
+                  is fetched from an API that I put on a json-server hosted on
+                  heroku. The dark and light theme is stored in localStorage.
+                  The site is available in mobile, tablet and desktop versions
+                </p>
+                <div className={styles.buttons}>
+                  <ProjectButton
+                    live={"https://dominiak92.github.io/devjobs-app/"}
+                    text={"live"}
+                  />
+                  <ProjectButton
+                    code={
+                      "https://github.com/dominiak92/devjobs-app"
+                    }
+                    text={"code"}
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.imagecontent}>
+                <img
                   src={require(`../assets/gallery/projects/space-page-preview.jpg`)}
                   alt="photo1"
                   className={styles.img}

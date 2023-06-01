@@ -15,7 +15,8 @@ import {
   faGear,
   faBook,
   faMobileScreen,
-  faPalette
+  faPalette,
+  faRegistered
 } from "@fortawesome/free-solid-svg-icons";
 
 const Technologies = () => {
@@ -30,7 +31,7 @@ const Technologies = () => {
     faPalette,
     faFigma, 
     faGear,
-    faBook,
+    faRegistered,
     faMobileScreen,
   ];
   const description = [
@@ -44,7 +45,7 @@ const Technologies = () => {
     "Photoshop",
     "Figma",
     "REST API",
-    "libraries",
+    "Redux",
     "Mobile first",
   ];
 
