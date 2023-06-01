@@ -88,10 +88,11 @@ const Projects = () => {
               </div>
               <div className={styles.cardContent}>
                 <p className={styles.description}>
-                  The application is created in React using Redux Toolkit, the data
-                  is fetched from an API that I put on a json-server hosted on
-                  heroku. The dark and light theme is stored in localStorage.
-                  The site is available in mobile, tablet and desktop versions
+                  Application created in React using Redux Toolkit, dark and
+                  light theme saved in local storage. Data fetched from API
+                  which I put on json-server, hosted on heroku. Site available
+                  in mobile, tablet and desktop versions with different filter
+                  components.
                 </p>
                 <div className={styles.buttons}>
                   <ProjectButton
