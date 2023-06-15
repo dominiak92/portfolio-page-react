@@ -15,6 +15,9 @@ function App() {
       <AboutMe />
       <Technologies />
       <Projects />
+      <div className={styles.header}>
+          <p className={styles.title}>My story</p>
+        </div>
       <div className={styles.timeline}>
         <Dates />
         <Gallery />
