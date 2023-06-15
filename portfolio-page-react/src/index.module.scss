@@ -8,8 +8,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #151515;
     color: #FFFFFF;
-    background-image: url(./assets/images/pattern-circle.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-circle.svg), url(./assets/images/pattern-rings.svg);
-    background-position: 125% 20%, 220% 11%, -100% 40%, 200% 30%, 125% 65%, 220% 62%;
+    background-image: url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-circle.svg), url(./assets/images/pattern-rings.svg);
+    background-position: 220% 11%, -100% 40%, 200% 30%, 125% 65%, 220% 62%;
     background-repeat: no-repeat;
     min-height: 100vh; 
     @include md {
@@ -17,9 +17,9 @@ body {
         background-position: 114% 19%, -40% 11%, -100% 40%, 200% 30%, 125% 65%, 220% 62%;
     }
     @include lg {
-        background-image: url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-circle.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-circle.svg);
-        background-position: 110% 22%, -21% 5%, -30% 15%,-40% 38%, 110% 52%, -50% 62%;
-        background-size: 50%, 60%, 30%, 60%, 60%, 40%;
+        background-image: url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg), url(./assets/images/pattern-rings.svg);
+        background-position: 110% 22%, -21% 5%,-40% 38%, 110% 52%, -50% 62%;
+        background-size: 50%, 60%, 60%, 60%, 40%;
     }
 }
 

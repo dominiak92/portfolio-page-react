@@ -32,7 +32,6 @@ const Technologies = () => {
     faFigma, 
     faGear,
     faRegistered,
-    faMobileScreen,
   ];
   const description = [
     "React",
@@ -46,7 +45,6 @@ const Technologies = () => {
     "Figma",
     "REST API",
     "Redux",
-    "Mobile first",
   ];
 
   const [ref, inView] = useInView();

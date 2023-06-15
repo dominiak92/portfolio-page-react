@@ -14,11 +14,12 @@ function App() {
       <Header />
       <AboutMe />
       <Technologies />
+      <Projects />
       <div className={styles.timeline}>
         <Dates />
         <Gallery />
       </div>
-      <Projects />
+
       <Contact />
     </div>
   );

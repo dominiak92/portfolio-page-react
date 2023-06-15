@@ -30,9 +30,7 @@ const AboutMe = () => {
           I'm <span className={styles.name}>Sebastian Dominiak</span>
         </animated.p>
         <animated.p className={styles.description} ref={ref} style={springs}>
-          I am currently a soldier in the Polish army, a veteran of Iraq and
-          Afghanistan with the rank of private first class, passionate about
-          building responsive websites that users love.
+        Passionate about building responsive and user-friendly websites. Let's bring your digital vision to life!
         </animated.p>
         <Button name="Contact Me"/>
       </div>

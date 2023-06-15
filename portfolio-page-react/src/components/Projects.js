@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 const Projects = () => {
   return (
     <>
-      <div className={styles.line} />
       <div className={styles.projects}>
         <div className={styles.header}>
           <p className={styles.title}>Projects</p>
@@ -330,6 +329,7 @@ const Projects = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      <div className={styles.line} />
     </>
   );
 };
