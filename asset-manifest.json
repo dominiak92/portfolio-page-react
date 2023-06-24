@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.db6a1611.css",
-    "main.js": "/static/js/main.ce4fb7d7.js",
+    "main.css": "/static/css/main.09f204f3.css",
+    "main.js": "/static/js/main.7cc87fe5.js",
     "static/js/787.283669bf.chunk.js": "/static/js/787.283669bf.chunk.js",
     "static/media/me.png": "/static/media/me.83b29ae8cc3df5f9324b.png",
     "static/media/1.jpg": "/static/media/1.6907e0239fb4c668ce19.jpg",
     "static/media/entertainment-preview.jpg": "/static/media/entertainment-preview.ee93b83b7298940c1ff7.jpg",
     "static/media/2.jpg": "/static/media/2.0e5e70122767f534ca46.jpg",
+    "static/media/countries-preview.jpg": "/static/media/countries-preview.7d62be5201b22129ce2f.jpg",
     "static/media/3.jpg": "/static/media/3.84b2629a72c55675f30d.jpg",
     "static/media/4.jpg": "/static/media/4.cf925a04416e0a0ca14c.jpg",
     "static/media/space-page-preview.jpg": "/static/media/space-page-preview.58a40c88beb69b18b668.jpg",
@@ -18,14 +19,14 @@
     "static/media/password-preview.jpg": "/static/media/password-preview.5188ff1974942b8ee678.jpg",
     "static/media/card-preview.jpg": "/static/media/card-preview.347ba520e05e2a4e24ed.jpg",
     "index.html": "/index.html",
-    "static/media/pattern-rings.svg": "/static/media/pattern-rings.e62a24d55bee668faa1f.svg",
+    "static/media/pattern-rings.svg": "/static/media/pattern-rings.786bb7279b08ec9300d6.svg",
     "static/media/pattern-circle.svg": "/static/media/pattern-circle.03ed7df39f087b52355f.svg",
-    "main.db6a1611.css.map": "/static/css/main.db6a1611.css.map",
-    "main.ce4fb7d7.js.map": "/static/js/main.ce4fb7d7.js.map",
+    "main.09f204f3.css.map": "/static/css/main.09f204f3.css.map",
+    "main.7cc87fe5.js.map": "/static/js/main.7cc87fe5.js.map",
     "787.283669bf.chunk.js.map": "/static/js/787.283669bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db6a1611.css",
-    "static/js/main.ce4fb7d7.js"
+    "static/css/main.09f204f3.css",
+    "static/js/main.7cc87fe5.js"
   ]
 }
