@@ -45,7 +45,6 @@
       &:hover {
         color: $almostwhite;
         scale: 1.15;
-        box-shadow: rgba(78, 225, 160, 0.4) -5px 5px, rgba(78, 225, 160, 0.3) -10px 10px, rgba(78, 225, 160, 0.2) -15px 15px, rgba(78, 225, 160, 0.1) -20px 20px, rgba(78, 225, 160, 0.05) -25px 25px;
       }
     }
     @include md {

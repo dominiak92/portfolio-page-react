@@ -38,7 +38,7 @@ const Technologies = () => {
     "HTML",
     "CSS",
     "SCSS",
-    "JavaScript",
+    "TypeScript",
     "Git",
     "GitHub",
     "Photoshop",
@@ -50,9 +50,9 @@ const Technologies = () => {
   const [ref, inView] = useInView();
 
   const trailSprings = useTrail(icons.length, {
-    from: { opacity: inView ? 1 : 0, transform: "translateY(-30px)"  },
-    to: { opacity: inView ? 1 : 0 , transform: "translateY(0)" },
-    delay: 200,
+    // from: { opacity: inView ? 1 : 0, transform: "translateY(-30px)"  },
+    // to: { opacity: inView ? 1 : 0 , transform: "translateY(0)" },
+    // delay: 200,
   });
 
   return (

@@ -99,8 +99,36 @@ const Projects = () => {
                     text={"live"}
                   />
                   <ProjectButton
+                    code={"https://github.com/dominiak92/devjobs-app"}
+                    text={"code"}
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.imagecontent}>
+                <img
+                  src={require(`../assets/gallery/projects/countries-preview.jpg`)}
+                  alt="photo1"
+                  className={styles.img}
+                />
+              </div>
+              <div className={styles.cardContent}>
+                <p className={styles.description}>
+                  Application built using React with Vite.js, I also used
+                  Typescript, React Router and Redux Toolkit for state managment. Data fetched from REST
+                  COUNTRIES API. Style data stored in local storage.
+                </p>
+                <div className={styles.buttons}>
+                  <ProjectButton
+                    live={"https://dominiak92.github.io/countries-app/"}
+                    text={"live"}
+                  />
+                  <ProjectButton
                     code={
-                      "https://github.com/dominiak92/devjobs-app"
+                      "https://github.com/dominiak92/countries-app"
                     }
                     text={"code"}
                   />
