@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.09f204f3.css",
-    "main.js": "/static/js/main.7cc87fe5.js",
+    "main.js": "/static/js/main.060b12b6.js",
     "static/js/787.283669bf.chunk.js": "/static/js/787.283669bf.chunk.js",
     "static/media/me.png": "/static/media/me.83b29ae8cc3df5f9324b.png",
     "static/media/1.jpg": "/static/media/1.6907e0239fb4c668ce19.jpg",
@@ -14,6 +14,7 @@
     "static/media/dictionary-preview.jpg": "/static/media/dictionary-preview.8f5ec264610de61df5c0.jpg",
     "static/media/calculator-preview.jpg": "/static/media/calculator-preview.e26906418f7e1f6c98d6.jpg",
     "static/media/tip-preview.jpg": "/static/media/tip-preview.ffe1e0890bfed173898f.jpg",
+    "static/media/invoiceapp-preview.jpg": "/static/media/invoiceapp-preview.e60a463cbf56b2d53fd4.jpg",
     "static/media/single-page-design-preview.jpg": "/static/media/single-page-design-preview.90f4958c3c8a015dc3d4.jpg",
     "static/media/devjobs-preview.jpg": "/static/media/devjobs-preview.50dfc436f8ee2066101f.jpg",
     "static/media/password-preview.jpg": "/static/media/password-preview.5188ff1974942b8ee678.jpg",
@@ -22,11 +23,11 @@
     "static/media/pattern-rings.svg": "/static/media/pattern-rings.786bb7279b08ec9300d6.svg",
     "static/media/pattern-circle.svg": "/static/media/pattern-circle.03ed7df39f087b52355f.svg",
     "main.09f204f3.css.map": "/static/css/main.09f204f3.css.map",
-    "main.7cc87fe5.js.map": "/static/js/main.7cc87fe5.js.map",
+    "main.060b12b6.js.map": "/static/js/main.060b12b6.js.map",
     "787.283669bf.chunk.js.map": "/static/js/787.283669bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09f204f3.css",
-    "static/js/main.7cc87fe5.js"
+    "static/js/main.060b12b6.js"
   ]
 }
