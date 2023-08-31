@@ -100,7 +100,7 @@ const Projects = () => {
                   />
                   <ProjectButton
                     code={
-                      "https://github.com/dominiak92/entertainment-web-app/tree/main/entertainment-web-app"
+                      "https://github.com/dominiak92/entertainment-web-app"
                     }
                     text={"code"}
                   />
@@ -192,7 +192,7 @@ const Projects = () => {
                   />
                   <ProjectButton
                     code={
-                      "https://github.com/dominiak92/space-tourism-multi-page-website-react/tree/main/space-tourism-multi-page-website-react"
+                      "https://github.com/dominiak92/space-tourism-multi-page-website-react"
                     }
                     text={"code"}
                   />
