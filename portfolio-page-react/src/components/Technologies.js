@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTrail, useInView, animated } from "react-spring";
 import {
   faReact,
+  faVuejs,
   faHtml5,
   faCss3Alt,
   faSass,
@@ -13,8 +14,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faGear,
-  faBook,
-  faMobileScreen,
   faPalette,
   faRegistered
 } from "@fortawesome/free-solid-svg-icons";
@@ -22,6 +21,7 @@ import {
 const Technologies = () => {
   const icons = [
     faReact,
+    faVuejs,
     faHtml5,
     faCss3Alt,
     faSass,
@@ -35,6 +35,7 @@ const Technologies = () => {
   ];
   const description = [
     "React",
+    "Vue.js",
     "HTML",
     "CSS",
     "SCSS",

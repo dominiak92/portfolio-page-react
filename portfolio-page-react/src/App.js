@@ -20,7 +20,7 @@ function App() {
         </div>
       <div className={styles.timeline}>
         <Dates />
-        <Gallery />
+        {/* <Gallery /> */}
       </div>
 
       <Contact />

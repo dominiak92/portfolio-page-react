@@ -45,6 +45,38 @@ const Projects = () => {
           modules={[Pagination]}
           className={styles.mySwiper}
         >
+          {" "}
+          <SwiperSlide>
+            <div className={styles.card}>
+              <div className={styles.imagecontent}>
+                <img
+                  src={require(`../assets/gallery/projects/invoiceapp-preview.jpg`)}
+                  alt="photo1"
+                  className={styles.img}
+                />
+              </div>
+              <div className={styles.cardContent}>
+                <p className={styles.description}>
+                  Fully responsive MEVN stack application. The backend is based
+                  on JWT Tokens. Once registered and logged in, you can add
+                  invoices, edit, delete, change status and filter invoices.
+                  Application developed in Nuxt2 using Vuetify.js.
+                </p>
+                <div className={styles.buttons}>
+                  <ProjectButton
+                    live={
+                      "https://main--dazzling-bienenstitch-1eab4c.netlify.app/"
+                    }
+                    text={"live"}
+                  />
+                  <ProjectButton
+                    code={"https://github.com/dominiak92/invoice-app"}
+                    text={"code"}
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div className={styles.card}>
               <div className={styles.imagecontent}>
@@ -118,8 +150,9 @@ const Projects = () => {
               <div className={styles.cardContent}>
                 <p className={styles.description}>
                   Application built using React with Vite.js, I also used
-                  Typescript, React Router and Redux Toolkit for state managment. Data fetched from REST
-                  COUNTRIES API. Style data stored in local storage.
+                  Typescript, React Router and Redux Toolkit for state
+                  managment. Data fetched from REST COUNTRIES API. Style data
+                  stored in local storage.
                 </p>
                 <div className={styles.buttons}>
                   <ProjectButton
@@ -127,9 +160,7 @@ const Projects = () => {
                     text={"live"}
                   />
                   <ProjectButton
-                    code={
-                      "https://github.com/dominiak92/countries-app"
-                    }
+                    code={"https://github.com/dominiak92/countries-app"}
                     text={"code"}
                   />
                 </div>
